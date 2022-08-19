@@ -15,18 +15,14 @@ body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
     font-family: var(--main-fonts)
-    
-    
 }
 /* Шапка */
 .logo {
     color:var(--primary-text-lcolor);
     text-decoration: none;
     font-weight: 700;
-    font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;  
 }
 .Web {
     color: var(--accent-color);
@@ -41,10 +37,16 @@ body {
     text-decoration: none;
     font-family: var(--secondary-font);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+}
+.telephone{
+    text-decoration: none;
+    font-family: var(--main-fonts);
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color:var(--title-text-color);
 }
 .link:hover,
 .link:focus {
@@ -53,11 +55,11 @@ body {
 .contact-link:hover,
 .contact-link:focus {
  color: var(--accent-color);
-font-weight: 500;
 }
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
 /* Герой */
 .main {
     background-color: #2F303A;
@@ -67,6 +69,7 @@ font-weight: 500;
     font-family:var(--main-fonts);
     font-weight: 900;
     line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
     
 }
 .btn {
@@ -106,28 +109,47 @@ font-weight: 500;
     color: var(--white-color);
     font-weight: 400;
     line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
 }
 
-.link-footer {
+.list-footer {
     text-decoration: none;
-    color: var(--title-text-color);
+    font-weight: 400;
+    line-height:calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #ffffff99;
     
 }
 /* Наші роботи */
-.list-item > .btn-portfolio:focus,
-.list-item > .btn-portfolio:hover { 
+.btn-portfolio:focus,
+.btn-portfolio:hover { 
     background-color: var(--accent-color);
-    
-    
+    color: var(--white-color);
 }
 
 .main-title {
-    font-weight: 700;
-    line-height: calc(42 / 36);
+    font-weight: 900;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
 }
+.list-main {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height:calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+.link-work {
+    text-decoration: none;  
 
-
-
+}
+.name-project {
+    font-weight: 400;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 /* Основной цвет #212121 */
 /* Вторичный цвет #757575 */
 /* Акцент #2196F3  */
