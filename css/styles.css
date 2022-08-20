@@ -36,6 +36,7 @@ body {
 .contact-link {
     color: var(--title-text-color);
     text-decoration: none;
+    font-family: var(--secondary-font);
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
@@ -59,7 +60,6 @@ body {
 .site-nav .link.current {
     color: var(--accent-color);
 }
-
 /* Герой */
 .main {
     background-color: #2F303A;
@@ -68,6 +68,7 @@ body {
     color: var(--white-color);
     font-family:var(--main-fonts);
     font-weight: 900;
+    font-size: 44px;
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     
@@ -75,24 +76,46 @@ body {
 .btn {
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
 }
 /* Описание */
+.title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height:calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .text {
     color: var(--title-text-color);
-    font-weight: 400;
-    line-height: calc(24 / 14);
+    font-size: 14px;
+    line-height:calc(24 / 14);
     letter-spacing: 0.03em;
 }
 /* Чим мы займаємося */
-
-/* Наша команда */
-.team-position {
-    color: var(--title-text-color);
-    font-weight: 400;
-    line-height: calc(19 / 16);
+.sectiont-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height:calc(42 / 36);
     letter-spacing: 0.03em;
 }
-
+/* Наша команда */
+.name-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height:calc(19 / 16);
+    letter-spacing: 0.03em;
+}
+.team-position {
+    color: var(--title-text-color);
+    line-height:calc(19 / 16);
+    letter-spacing: 0.03em;
+}
 /* Подвал */ 
 .footer {
     background: #2F303A;
@@ -101,22 +124,21 @@ body {
     font-family: var(--secondary-font);
     color: var(--white-color);
     text-decoration: none;
-    font-family: var(--secondary-font);
+    font-size: 26px;
     font-weight: 700;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
 }
 .link-address {
+    font-style: normal;
     text-decoration: none;
     color: var(--white-color);
-    font-weight: 400;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
 }
 
 .list-footer {
     text-decoration: none;
-    font-weight: 400;
     line-height:calc(24 / 14);
     letter-spacing: 0.03em;
     color: #ffffff99;
@@ -139,6 +161,7 @@ body {
 .list-main {
     color: var(--primary-text-color);
     font-weight: 700;
+    font-size: 18px;
     line-height:calc(36 / 18);
     letter-spacing: 0.06em;
 }
@@ -148,11 +171,17 @@ body {
 }
 .name-project {
     color: var(--title-text-color);
-    font-weight: 400;
+    font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
 }
-
+.btn-portfolio {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+}
 
 /* Основной цвет #212121 */
 /* Вторичный цвет #757575 */
