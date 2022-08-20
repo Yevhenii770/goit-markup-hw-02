@@ -18,6 +18,7 @@ body {
 }
 /* Шапка */
 .logo {
+    font-family: var(--secondary-font);
     color:var(--primary-text-lcolor);
     text-decoration: none;
     font-weight: 700;
@@ -35,7 +36,6 @@ body {
 .contact-link {
     color: var(--title-text-color);
     text-decoration: none;
-    font-family: var(--secondary-font);
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
@@ -98,6 +98,7 @@ body {
     background: #2F303A;
 }
 .footer-logo {
+    font-family: var(--secondary-font);
     color: var(--white-color);
     text-decoration: none;
     font-family: var(--secondary-font);
