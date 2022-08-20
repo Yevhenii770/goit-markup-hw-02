@@ -81,7 +81,7 @@ body {
     color: var(--title-text-color);
     font-weight: 400;
     line-height: calc(24 / 14);
-    
+    letter-spacing: 0.03em;
 }
 /* Чим мы займаємося */
 
@@ -90,7 +90,7 @@ body {
     color: var(--title-text-color);
     font-weight: 400;
     line-height: calc(19 / 16);
-    
+    letter-spacing: 0.03em;
 }
 
 /* Подвал */ 
@@ -103,6 +103,7 @@ body {
     font-family: var(--secondary-font);
     font-weight: 700;
     line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
 }
 .link-address {
     text-decoration: none;
@@ -128,11 +129,11 @@ body {
 }
 
 .main-title {
+    color: var(--white-color);
     font-weight: 900;
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--white-color);
 }
 .list-main {
     color: var(--primary-text-color);
@@ -145,11 +146,13 @@ body {
 
 }
 .name-project {
+    color: var(--title-text-color);
     font-weight: 400;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
 }
+
+
 /* Основной цвет #212121 */
 /* Вторичный цвет #757575 */
 /* Акцент #2196F3  */
