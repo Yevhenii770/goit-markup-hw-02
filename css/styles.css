@@ -22,6 +22,7 @@ body {
     color:var(--primary-text-lcolor);
     text-decoration: none;
     font-weight: 700;
+    font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;  
 }
@@ -33,10 +34,15 @@ body {
     text-decoration: none;
 }
 /* Site nav */
+.nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height:calc(16 / 14);
+    letter-spacing: 0.02em;
+}
 .contact-link {
     color: var(--title-text-color);
     text-decoration: none;
-    font-family: var(--secondary-font);
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
@@ -84,7 +90,6 @@ body {
 }
 /* Описание */
 .title {
-    font-family: inherit;
     font-weight: 700;
     font-size: 14px;
     line-height:calc(16 / 14);
@@ -133,6 +138,7 @@ body {
     font-style: normal;
     text-decoration: none;
     color: var(--white-color);
+    font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
 }
@@ -143,6 +149,9 @@ body {
     letter-spacing: 0.03em;
     color: #ffffff99;
     
+}
+.contacts-adress {
+    font-style: normal;
 }
 /* Наші роботи */
 .btn-portfolio:focus,
@@ -171,7 +180,6 @@ body {
 }
 .name-project {
     color: var(--title-text-color);
-    font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
 }
